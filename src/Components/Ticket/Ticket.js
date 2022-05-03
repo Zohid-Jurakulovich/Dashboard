@@ -13,7 +13,11 @@ const Tickets = () => {
 				</div>
 
 				<div className='tickets_details'>
-					<p className='tickets_summary'>View details</p>
+					<p>
+						<a className='tickets_summary' href="#link">
+						View details
+						</a>
+						</p>
 				</div>
 			</div>
 

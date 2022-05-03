@@ -11,7 +11,9 @@ const Task = () => {
 				</div>
 
 				<div className='task_details'>
-					<p className='task_summary'> View all</p>
+					<p >
+						<a className='task_summary' href='#link'>View all</a>
+					</p>
 				</div>
 			</div>
 			<div className='task_create'>
@@ -25,26 +27,20 @@ const Task = () => {
 				<label class='form_label'>
 					Finish ticket update
 					<input className='form_input' type='radio' name='radio' />
-          <span class='checkmark'></span>
-          <span className='form_badge'>
-            URGENT
-          </span>
+					<span class='checkmark'></span>
+					<span className='form_badge'>URGENT</span>
 				</label>
 				<label class='form_label'>
 					Create new ticket example
 					<input className='form_input' type='radio' name='radio' />
-          <span class='checkmark'></span>
-          <span className='form_badge form_badgeGreen'>
-          NEW
-          </span>
+					<span class='checkmark'></span>
+					<span className='form_badge form_badgeGreen'>NEW</span>
 				</label>
 				<label class='form_label'>
 					Update ticket report
-					<input className='form_input' type='radio' name='radio'  />
-          <span class='checkmark'></span>
-          <span className='form_badge form_badgeGray'>
-            DEFAULT
-          </span>
+					<input className='form_input' type='radio' name='radio' />
+					<span class='checkmark'></span>
+					<span className='form_badge form_badgeGray'>DEFAULT</span>
 				</label>
 			</form>
 		</div>

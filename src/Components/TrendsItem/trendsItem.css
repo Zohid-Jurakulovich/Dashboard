@@ -1,0 +1,33 @@
+.trends_item {
+  width: 342px;
+	padding-bottom: 24px;
+	text-align: center;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.trends_item + .trends_item{
+  padding-top: 24px;
+}
+
+.trends_item:last-child{
+  padding-bottom: 0;
+  border: none;
+
+}
+
+.trends_itemTitle{
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.px;
+  color: #9fa2b4;
+}
+
+.trends_itemText{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}

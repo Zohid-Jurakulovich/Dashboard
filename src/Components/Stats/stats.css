@@ -1,0 +1,145 @@
+.statistics {
+	width: 1055px;
+	padding: 30px;
+}
+
+.view {
+	display: flex;
+  align-items: center;
+  margin-bottom: 54px;
+}
+
+.view_title {
+	font-size: 24px;
+	margin: 0;
+	line-height: 30px;
+}
+
+.view_parametres {
+	margin-left: auto;
+}
+
+.view_searchIcon {
+	margin-left: auto;
+	margin-right: 25px;
+}
+.view_notificationIcon{
+  margin-right: 32px;
+}
+
+.view_profile{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-left: 1px solid #DFE0EB;
+}
+
+.view_profileName{
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-right: 14px;
+}
+
+.view_list{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.trends{
+  display: flex;
+  margin-bottom: 30px;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+}
+
+.trends_left{
+  padding: 32px;
+  width: 646px;
+}
+
+.trends_title{
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.trends_elements{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.trends_address{
+  font-size: 12px;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9FA2B4;
+}
+
+.trends_days{
+  display: flex;
+  margin-left: auto;
+
+}
+
+.trends_day{
+  display: flex;
+  align-items: center;
+}
+
+.trends_day + .trends_day{
+  margin-left: 32px;
+}
+
+.trends_line{
+  display: block;
+  margin-right: 8px;
+  width: 16px;
+  height: 2px;
+  background-color: #3751FF;
+}
+
+.trends_line--active{
+  background-color: #DFE0EB;
+}
+
+.trends_text{
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1px;
+  color: #9FA2B4;
+}
+
+.trends_img{
+  width: 640px;
+  height: 424px;
+}
+
+.trends_right{
+  margin-left: auto;
+  padding: 32px 0 32px 0;
+  border-left: 1px solid #DFE0EB;
+
+}
+
+.trends_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.view_footer{
+  display: flex;
+}

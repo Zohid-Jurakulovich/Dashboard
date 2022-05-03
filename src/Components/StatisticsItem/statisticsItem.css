@@ -1,0 +1,38 @@
+.view_item {
+  width: 258px;
+	padding: 24px 32px;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  transition: color 0.3s ease;
+}
+.view_item:hover{
+  border-color: #3751FF;
+  color: #3751FF;
+}
+
+.view_item:hover .view_itemTitle{
+  color: #3751FF;
+}
+
+.view_item ~ .view_item{
+  margin-left: 30px;
+}
+
+.view_itemTitle {
+	font-weight: 700;
+	font-size: 19px;
+  color: #9FA2B4;
+  line-height: 23.85px;
+  text-align: center;
+  transition: color 0.3s ease;
+
+}
+
+.view_text{
+  display: block;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+}
